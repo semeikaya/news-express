@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://bersyak:web2000web@cluster0.akjwcf0.mongodb.net/test", {
+mongoose.connect("mongodb+srv://bersyak:web2000web@cluster0.akjwcf0.mongodb.net/news", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => console.log('Успешно соединились с сервером MongoDB'))
